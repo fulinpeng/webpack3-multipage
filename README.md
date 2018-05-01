@@ -155,7 +155,7 @@
 * 建议本地安装
   * 可以使我们在引入破坏式变更(breaking change)的依赖时，更容易分别升级项目
   * 当你在本地安装 webpack 后，你能够从 node_modules/.bin/webpack 访问它的 bin 版本
-* 不推荐全局安装
+  * 不推荐全局安装
   * 这会将您项目中的 webpack 锁定到指定版本，并且在使用不同的 webpack 版本的项目中，可能会导致构建失败
 
 ## 起步
@@ -177,14 +177,11 @@
     * node_modules/.bin/webpack src/index.js dist/bundle.js // 打包命令
 
 * package.json 中配置：
-
-    `
-    "scripts": {
-        "build": "webpack",     // 可以自动从node_modules中索引webpack并执行
-        "watch": "webpack --progress --watch",      // 观察模式启动
-        "start": "webpack-dev-server"      // 热更新，需要额外配置才能使用
-      },
-    `
+> "scripts": {
+>> "build": "webpack",     // 可以自动从node_modules中索引webpack并执行
+>> "watch": "webpack --progress --watch",      // 观察模式启动
+>> "start": "webpack-dev-server"      // 热更新，需要额外配置才能使用
+> },
 
 * 小结
   * 如果出现 XXX 不是内部命令，可能是需要管理员权限，linux 要加 sudo
