@@ -177,13 +177,13 @@
     * node_modules/.bin/webpack src/index.js dist/bundle.js // 打包命令
 
 * package.json 中配置：
-> "scripts": {
-
->> "build": "webpack",     // 可以自动从node_modules中索引webpack并执行
->> "watch": "webpack --progress --watch",      // 观察模式启动
->> "start": "webpack-dev-server"      // 热更新，需要额外配置才能使用
-
-> },
+```
+ "scripts": {
+   "build": "webpack",     // 可以自动从node_modules中索引webpack并执行
+   "watch": "webpack --progress --watch",      // 观察模式启动
+   "start": "webpack-dev-server"      // 热更新，需要额外配置才能使用
+},
+```
 
 * 小结
   * 如果出现 XXX 不是内部命令，可能是需要管理员权限，linux 要加 sudo
