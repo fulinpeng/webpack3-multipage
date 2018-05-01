@@ -12,7 +12,7 @@
   * CommonJS require() 语句
   * AMD define 和 require 语句
   * css/sass/less 文件中的 @import 语句
-  * 样式(url(...))或 HTML 文件(<img src=...>)中的图片链接(image url)
+  * 样式(url(...))或 HTML 文件(< img src=... >)中的图片链接(image url)
 * 注意
   * 避免导出不确定的值（调用 webpack 两次应该产生同样的输出文件）
   * 编写很长的配置（应该将配置拆分为多个文件）
