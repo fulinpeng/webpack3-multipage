@@ -1,0 +1,13 @@
+body h1 {
+  color: orange;
+}
+.img {
+  width: 25%;
+  height: 200px;
+  background: url("../img/small.jpg");
+
+  display: flex;
+  transition: all ease 1s;
+  transform: rotate(10deg);
+  transform: translate(20px 20px);
+}

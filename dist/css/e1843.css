@@ -1,0 +1,25 @@
+body {
+  color: green;
+  font-size: 20px;
+  background: black;
+  padding: 50px;
+  margin: 0;
+}
+body a {
+  color: white;
+  line-height: 30px;
+  text-decoration: none;
+  background: pink;
+  padding: 0 10px;
+}
+h1 {
+  color: red;
+}
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+}

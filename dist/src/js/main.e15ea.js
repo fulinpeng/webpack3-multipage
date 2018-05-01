@@ -1,0 +1,1 @@
+webpackJsonp([2],[function(n,e){},,function(n,e,t){"use strict";t(0),t(1)("<h1>这是 home 示例</h1>").appendTo(document.getElementById("main"))}],[2]);

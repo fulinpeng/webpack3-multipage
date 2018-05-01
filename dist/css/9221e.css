@@ -1,0 +1,14 @@
+body {
+  color: green;
+  font-size: 20px;
+  background: black;
+  padding: 50px;
+  margin: 0;
+}
+body a {
+  color: white;
+  line-height: 30px;
+  text-decoration: none;
+  background: pink;
+  padding: 0 10px;
+}

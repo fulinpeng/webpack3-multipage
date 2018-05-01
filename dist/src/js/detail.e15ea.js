@@ -1,0 +1,1 @@
+webpackJsonp([1],[function(n,i){},,,,,,function(n,i,c){"use strict";c(0),c(7),c(1)("<div class='img'></div>").appendTo("body")},function(n,i){}],[6]);

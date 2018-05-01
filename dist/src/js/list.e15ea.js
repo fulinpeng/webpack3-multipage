@@ -1,0 +1,1 @@
+webpackJsonp([0],{0:function(n,o){},8:function(n,o,t){"use strict";t(0),t(9),t(1)("<h1>这是 list 示例</h1>").appendTo("body")},9:function(n,o){}},[8]);
