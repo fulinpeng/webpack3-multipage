@@ -161,35 +161,30 @@
 ## 起步
 
 * 常用命令
-
-
-    webpack --config webpack.min.js //另一份配置文件
-    webpack --display-error-details //显示异常信息
-    webpack --watch   //监听变动并自动打包
-    webpack -p    //压缩混淆脚本，这个非常非常重要！
-    webpack -d    //生成map映射文件，告知哪些模块被最终打包到哪里了
-    webpack --progress //显示进度条
-    webpack --color //添加颜色
-    npm info webpack    // 查看webpack 版本信息
-    npm install --save-dev webpack@<version>    // 安装特定版本
+    * webpack --config webpack.min.js //另一份配置文件
+    * webpack --display-error-details //显示异常信息
+    * webpack --watch   //监听变动并自动打包
+    * webpack -p    //压缩混淆脚本，这个非常非常重要！
+    * webpack -d    //生成map映射文件，告知哪些模块被最终打包到哪里了
+    * webpack --progress //显示进度条
+    * webpack --color //添加颜色
+    * npm info webpack    // 查看webpack 版本信息
+    * npm install --save-dev webpack@<version>    // 安装特定版本
 
 * 安装
-
-
-    npm init -y     // 快速初始化，会把README.md的部分内容当做description
-    npm install --save-dev webpack
-
-    // 打包命令
-    node_modules/.bin/webpack src/index.js dist/bundle.js
+    * npm init -y     // 快速初始化，会把README.md的部分内容当做description
+    * npm install --save-dev webpack
+    * node_modules/.bin/webpack src/index.js dist/bundle.js // 打包命令
 
 * package.json 中配置：
 
-
+    `
     "scripts": {
         "build": "webpack",     // 可以自动从node_modules中索引webpack并执行
         "watch": "webpack --progress --watch",      // 观察模式启动
         "start": "webpack-dev-server"      // 热更新，需要额外配置才能使用
       },
+    `
 
 * 小结
   * 如果出现 XXX 不是内部命令，可能是需要管理员权限，linux 要加 sudo
